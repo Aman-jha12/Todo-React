@@ -13,7 +13,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetchTodos(); // Fetch once on mount
+    fetchTodos();
   }, []);
 
   return (
